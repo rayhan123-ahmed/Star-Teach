@@ -15,7 +15,7 @@ body {
   background-color: #f2f4f8;
 }
 ::selection {
-  background: #ff511a; /* background when text is selected */
+  background: #000; /* background when text is selected */
   color: #ffffff;
 }
 .container {

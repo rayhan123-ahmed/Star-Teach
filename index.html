@@ -35,7 +35,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-
     <title>
       Star Tech - Leading Computer, Laptop & Gadget Shop in Bangladesh
     </title>
@@ -156,8 +155,25 @@
           </ul>
         </div>
       </nav>
+      <!-- MOBILE HEADER -->
+      <div class="mobile-header">
+        <div class="mobile-nav">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="mobile-logo">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="mobile-icon">
+          <div class="mobile-ic search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="mobile-ic shooping">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </div>
+        </div>
+      </div>
     </header>
-    <!-- STICKY -->
+    <!-- STICKY CART -->
     <div class="f-btn" id="cart">
       <i class="fa-solid fa-basket-shopping"></i>
       <div class="label">cart</div>
@@ -168,6 +184,49 @@
       <div class="label">Compare</div>
       <span class="counter">0</span>
     </div>
+    <!-- ABOUT CART -->
+    <div class="about-carts">
+      <a href="" class="ac">
+        <div class="aci">
+          <i class="fa-solid fa-gift"></i>
+        </div>
+        <div class="act">
+          <h5>Offers</h5>
+        </div>
+      </a>
+      <a href="" class="ac">
+        <div class="aci">
+          <i class="fa-solid fa-bolt"></i>
+        </div>
+        <div class="act">
+          <h5>Happy Hours</h5>
+        </div>
+      </a>
+      <a href="" class="ac">
+        <div class="aci">
+          <i class="fa-solid fa-computer"></i>
+        </div>
+        <div class="act">
+          <h5>PC Builder</h5>
+        </div>
+      </a>
+      <a href="" class="ac">
+        <div class="aci">
+          <i class="fa-solid fa-cart-plus"></i>
+        </div>
+        <div class="act">
+          <h5>Compare (0)</h5>
+        </div>
+      </a>
+      <a href="" class="ac">
+        <div class="aci">
+          <i class="fa-solid fa-address-book"></i>
+        </div>
+        <div class="act">
+          <h5>Account</h5>
+        </div>
+      </a>
+    </div>
     <!-- HERO SECTION STRAT -->
     <section id="hero-section">
       <div class="container">
@@ -176,8 +235,12 @@
             <img src="images/home-appliance-banner-982x500.webp" alt="" />
           </div>
           <div class="hero-image-right">
-            <img src="images/startech-mobile-app-315x252.webp" alt="" />
-            <img src="images/startech-career-315x252.webp" alt="" />
+            <div class="hero-image-right-1">
+              <img src="images/startech-mobile-app-315x252.webp" alt="" />
+            </div>
+            <div class="hero-image-right-2">
+              <img src="images/startech-career-315x252.webp" alt="" />
+            </div>
           </div>
         </div>
         <div class="text-warp">
@@ -1531,24 +1594,26 @@
             <span class="app-link-text"
               >Experience Star Tech App on your mobile:</span
             >
-            <a class="app-link" href="">
-              <span class="app-ic">
-                <i class="fa-brands fa-google-play"></i>
-              </span>
-              <span class="app-text">
-                <span class="dwonload">Download on</span>
-                <span class="play-store">Google Play</span>
-              </span>
-            </a>
-            <a class="app-link" href="">
-              <span class="app-ic">
-                <i class="fa-brands fa-app-store"></i>
-              </span>
-              <span class="app-text">
-                <span class="dwonload">Download on</span>
-                <span class="play-store">App Store</span>
-              </span>
-            </a>
+            <span class="app-item">
+              <a class="app-link" href="">
+                <span class="app-ic">
+                  <i class="fa-brands fa-google-play"></i>
+                </span>
+                <span class="app-text">
+                  <span class="dwonload">Download on</span>
+                  <span class="play-store">Google Play</span>
+                </span>
+              </a>
+              <a class="app-link" href="">
+                <span class="app-ic">
+                  <i class="fa-brands fa-app-store"></i>
+                </span>
+                <span class="app-text">
+                  <span class="dwonload">Download on</span>
+                  <span class="play-store">App Store</span>
+                </span>
+              </a>
+            </span>
           </div>
           <div class="social-link">
             <a href=""><i class="fa-brands fa-whatsapp"></i></a>
@@ -1562,13 +1627,13 @@
             ></a>
           </div>
         </div>
-        <div class="sub-footer">
-          <div class="sub-footer-left">
-            <p>© 2025 Star Tech Ltd | All rights reserved</p>
-          </div>
-          <div class="sub-footer-right">
-            <p>Powered By: Star Tech</p>
-          </div>
+      </div>
+      <div class="sub-footer">
+        <div class="sub-footer-left">
+          <p>© 2025 Star Tech Ltd | All rights reserved</p>
+        </div>
+        <div class="sub-footer-right">
+          <p>Powered By: Star Tech</p>
         </div>
       </div>
     </footer>
